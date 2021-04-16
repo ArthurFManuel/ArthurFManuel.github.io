@@ -1,7 +1,8 @@
-
-#box h1{
+.box .title{
     font-family: 'poppins';
     font-size: 40px;
     font-weight: bolder;
     padding-bottom: 28px;
+    color: #fff;
+    text-shadow: 3px 3px 0 #000;
 }

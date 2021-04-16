@@ -1,0 +1,18 @@
+.action{
+    display: inline-flex;
+    color: white;
+    font-size: 18px;
+    font-weight: 500px;
+    font-family : "Poppins";
+    margin-right: 30px;
+    text-decoration: none;
+    align-items: center;        
+}
+
+.action::before{
+        content: "";
+        background-color: #F2C94C;
+        width: 8px;
+        height: 8px;
+        margin-right: 4px;
+}
