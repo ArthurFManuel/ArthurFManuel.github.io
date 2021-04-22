@@ -4,5 +4,22 @@
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid #000;
+    box-sizing:border-box;  /*corrige o limite da tela considerando o width e o height ... por padrão é "content-box" que soma os totais de cada elemento (margin, padding, height, width) */
+}
+
+.banner .container{
+    width: 640px;
     display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-left: 91px;
+}
+
+.banner .box{
+    margin-bottom: 38px;
+}
+
+.banner .space{
+    display: flex;
+    justify-content: space-around;
 }
